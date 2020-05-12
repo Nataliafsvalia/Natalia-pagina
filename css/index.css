@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin:	0;	
+}
+
+.contenedor{
+	width: 950px ;	
+	margin: 0 auto;
+}
+
+body{	
+	background: #ccc;
+}
+
+header{
+	border-bottom: dashed 2px #666666;
+	padding-bottom: 10px;
+}
+
+header h1{
+	margin: 0;
+	padding: 0;
+}
+   
+header nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+header nav ul li{
+	display: inline-block;
+}
+
+
+
+header nav ul li a:hover {
+	background: #000;
+
+}
+
+header h5{
+	font-family: 'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+#cuerpo{
+	font: 11px verdana, geneva, sans-serif;
+	text-align: justify;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	padding: 50px 5px 5px 10px;
+	text-align:right;
+}
+
